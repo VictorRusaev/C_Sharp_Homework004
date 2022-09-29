@@ -13,14 +13,7 @@ void FillArray(int[] collection)
 
 void PrintArray(int[] col)
 {
-    int count = col.Length;
-    int position = 0;
-
-    while (position < count)
-    {
-        position++;
-    }
-    Console.Write(String.Join(", ", col));
+       Console.Write(String.Join(", ", col));
 }
 
 int[] array = new int[8];
