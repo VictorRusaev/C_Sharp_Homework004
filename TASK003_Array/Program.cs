@@ -13,11 +13,11 @@ void FillArray(int[] collection)
 
 void PrintArray(int[] col)
 {
-       Console.Write(String.Join(", ", col));
+    Console.Write($"[");
+    Console.Write(String.Join(", ", col));
+    Console.Write($"]");
 }
 
 int[] array = new int[8];
-Console.Write($"[");
 FillArray(array);
 PrintArray(array);
-Console.Write($"]");
